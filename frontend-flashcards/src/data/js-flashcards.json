@@ -1,0 +1,214 @@
+[
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that has access to variables from its outer (enclosing) function scope even after the outer function has returned."
+  },
+  {
+    "question": "What are the different data types present in JavaScript?",
+    "answer": "Primitive types (String, Number, Boolean, Null, Undefined, Symbol, BigInt) and Object types."
+  },
+  {
+    "question": "Explain the difference between == and === operators.",
+    "answer": "== compares values after type coercion; === compares values and types without coercion."
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword?",
+    "answer": "'this' refers to the object context in which the current code is executing."
+  },
+  {
+    "question": "What are arrow functions and how are they different from regular functions?",
+    "answer": "Arrow functions have a shorter syntax and do not have their own 'this', 'arguments', or 'super'. They inherit 'this' from the enclosing context."
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "answer": "Event bubbling is the process where an event propagates from the target element up through its ancestors in the DOM tree."
+  },
+  {
+    "question": "Explain the difference between var, let, and const.",
+    "answer": "'var' is function-scoped and hoisted; 'let' and 'const' are block-scoped and not hoisted the same way. 'const' variables cannot be reassigned."
+  },
+  {
+    "question": "What is hoisting?",
+    "answer": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope before code execution."
+  },
+  {
+    "question": "What are promises and how do they work?",
+    "answer": "Promises represent asynchronous operations that can be fulfilled or rejected, allowing chaining of asynchronous actions."
+  },
+  {
+    "question": "What is the event loop in JavaScript?",
+    "answer": "The event loop manages execution of multiple chunks of your program by handling the call stack and the task queue asynchronously."
+  },
+  {
+    "question": "What is a callback function?",
+    "answer": "A callback function is a function passed into another function as an argument to be executed later."
+  },
+  {
+    "question": "Explain the difference between synchronous and asynchronous code.",
+    "answer": "Synchronous code executes sequentially, blocking further execution; asynchronous code runs independently, allowing other code to execute."
+  },
+  {
+    "question": "What are template literals?",
+    "answer": "Template literals are string literals allowing embedded expressions using backticks and ${expression} syntax."
+  },
+  {
+    "question": "What is the difference between null and undefined?",
+    "answer": "'null' is an assigned value representing no value; 'undefined' means a variable has been declared but not assigned a value."
+  },
+  {
+    "question": "What is the use of the spread operator?",
+    "answer": "The spread operator (...) expands iterable elements (arrays, objects) into individual elements."
+  },
+  {
+    "question": "What is destructuring in JavaScript?",
+    "answer": "Destructuring allows unpacking values from arrays or properties from objects into distinct variables."
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "answer": "Modules are reusable pieces of code that export variables or functions and import them into other modules."
+  },
+  {
+    "question": "What is the difference between call(), apply(), and bind()?",
+    "answer": "call() and apply() invoke functions with a specified 'this'; apply() accepts arguments as an array, call() as a list. bind() returns a new function with bound 'this'."
+  },
+  {
+    "question": "What is a prototype in JavaScript?",
+    "answer": "A prototype is an object from which other objects inherit properties and methods."
+  },
+  {
+    "question": "What is the difference between classical inheritance and prototypal inheritance?",
+    "answer": "Classical inheritance uses classes and instances; prototypal inheritance uses objects inheriting directly from other objects."
+  },
+  {
+    "question": "What is strict mode?",
+    "answer": "Strict mode is a way to opt in to a restricted variant of JavaScript that catches common coding mistakes."
+  },
+  {
+    "question": "How do you create a new object in JavaScript?",
+    "answer": "Using object literals, constructor functions, Object.create(), or ES6 classes."
+  },
+  {
+    "question": "What are generators?",
+    "answer": "Generators are functions that can be paused and resumed, yielding multiple values over time."
+  },
+  {
+    "question": "Explain async/await.",
+    "answer": "async/await is syntax to handle promises more easily, making asynchronous code look synchronous."
+  },
+  {
+    "question": "What is the difference between a shallow copy and a deep copy?",
+    "answer": "Shallow copy copies references to nested objects; deep copy duplicates all nested objects recursively."
+  },
+  {
+    "question": "How does JavaScript handle memory management?",
+    "answer": "JavaScript uses garbage collection to automatically free memory from objects no longer referenced."
+  },
+  {
+    "question": "What are event listeners?",
+    "answer": "Functions that wait for and respond to events fired by DOM elements."
+  },
+  {
+    "question": "What is the difference between function declarations and function expressions?",
+    "answer": "Function declarations are hoisted and can be called before they are defined; function expressions are not hoisted."
+  },
+  {
+    "question": "What is a Higher-Order Function?",
+    "answer": "A function that takes another function as an argument or returns a function."
+  },
+  {
+    "question": "What are JavaScript data structures?",
+    "answer": "Objects, Arrays, Sets, Maps, WeakSets, WeakMaps."
+  },
+  {
+    "question": "What is NaN?",
+    "answer": "NaN stands for Not-a-Number, a special numeric value representing an invalid number."
+  },
+  {
+    "question": "Explain event delegation.",
+    "answer": "A technique where a single event listener on a parent element handles events from its children."
+  },
+  {
+    "question": "What is the difference between localStorage and sessionStorage?",
+    "answer": "localStorage stores data with no expiration; sessionStorage clears data when the page session ends."
+  },
+  {
+    "question": "What are Symbols?",
+    "answer": "Symbols are unique and immutable primitive values used as object property keys."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous iteration?",
+    "answer": "Synchronous iteration runs immediately; asynchronous iteration uses async iterators to handle asynchronous data streams."
+  },
+  {
+    "question": "What is a promise chain?",
+    "answer": "A sequence of promises linked with then() to handle asynchronous operations in order."
+  },
+  {
+    "question": "What are template strings and how do you use them?",
+    "answer": "Template strings are string literals enclosed in backticks, allowing embedded expressions and multiline strings."
+  },
+  {
+    "question": "What is the role of 'new' keyword in JavaScript?",
+    "answer": "'new' creates an instance of a constructor function, setting up prototype inheritance and initializing the object."
+  },
+  {
+    "question": "What is an IIFE?",
+    "answer": "Immediately Invoked Function Expression; a function that runs as soon as it is defined."
+  },
+  {
+    "question": "What are pure functions?",
+    "answer": "Functions that have no side effects and return the same output for the same inputs."
+  },
+  {
+    "question": "What are the different ways to create objects in JavaScript?",
+    "answer": "Object literals, constructor functions, ES6 classes, Object.create()."
+  },
+  {
+    "question": "Explain prototypal inheritance chain.",
+    "answer": "Objects inherit properties from their prototype objects up the chain until reaching Object.prototype."
+  },
+  {
+    "question": "What is the difference between 'undefined' and 'not defined'?",
+    "answer": "'undefined' is a declared variable without value; 'not defined' means the variable does not exist in the current scope."
+  },
+  {
+    "question": "What is currying?",
+    "answer": "Transforming a function with multiple arguments into a sequence of functions each with a single argument."
+  },
+  {
+    "question": "What is memoization?",
+    "answer": "An optimization technique where function results are cached to avoid repeated computations."
+  },
+  {
+    "question": "How do you handle errors in JavaScript?",
+    "answer": "Using try/catch blocks, promise catch methods, or async/await with try/catch."
+  },
+  {
+    "question": "What is the difference between call stack and task queue?",
+    "answer": "Call stack manages function execution; task queue holds messages to be processed after the current stack is empty."
+  },
+  {
+    "question": "What are web workers?",
+    "answer": "Background scripts that run independently of the main execution thread."
+  },
+  {
+    "question": "Explain the difference between mutable and immutable data types.",
+    "answer": "Mutable data can be changed after creation; immutable data cannot."
+  },
+  {
+    "question": "What is debouncing?",
+    "answer": "A technique to limit the rate a function is called, waiting until after a pause in events."
+  },
+  {
+    "question": "What is throttling?",
+    "answer": "A technique to limit a function to be called at most once in a specified time interval."
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "answer": "Files that export variables/functions and import them into other files to organize code."
+  },
+  {
+    "question": "What is the difference between 'for...in' and 'for...of' loops?",
+    "answer": "'for...in' iterates over enumerable property names; 'for...of' iterates over iterable values."
+  }
+]
