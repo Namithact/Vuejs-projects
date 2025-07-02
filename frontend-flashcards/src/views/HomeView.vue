@@ -19,30 +19,38 @@
       <option value="css">CSS</option>
     </select>
   </section>
-  <div class="grid gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
-    <Flashcard
-      v-for="(card, index) in paginatedQuestions"
-      :key="index"
-      :question="card.question"
-      :answer="card.answer"
-    />
+  <div
+    v-if="!selectedLanguage"
+    class="p-6 text-center bg-blue-100 text-blue-800 border border-blue-300 rounded-md m-4"
+  >
+    Select a language to get started!
   </div>
-  <div class="flex justify-center items-center gap-4 p-4">
-    <button
-      :disabled="currentPage === 1"
-      @click="goToNextPage"
-      class="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50"
-    >
-      Previous
-    </button>
-    <span class="text-gray-700 font-medium">Page {{ currentPage }}</span>
-    <button
-      :disabled="isLastPage"
-      @click="goTopPreviousPage"
-      class="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50"
-    >
-      Next
-    </button>
+  <div v-else>
+    <div class="grid gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+      <Flashcard
+        v-for="(card, index) in paginatedQuestions"
+        :key="index"
+        :question="card.question"
+        :answer="card.answer"
+      />
+    </div>
+    <div class="flex justify-center items-center gap-4 p-4">
+      <button
+        :disabled="currentPage === 1"
+        @click="goToPreviousPage"
+        class="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50"
+      >
+        Previous
+      </button>
+      <span class="text-gray-700 font-medium">Page {{ currentPage }}</span>
+      <button
+        :disabled="isLastPage"
+        @click="goToNextPage"
+        class="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50"
+      >
+        Next
+      </button>
+    </div>
   </div>
 </template>
 <script setup>
@@ -57,4 +65,17 @@ const paginatedQuestions = computed(() => {
   const startIndex = (currentPage.value - 1) * cardsPerPage.value;
   return questions.value.slice(startIndex, startIndex + cardsPerPage.value);
 });
+const isLastPage = computed(() => {
+  return (
+    currentPage.value >= Math.ceil(questions.value.length / cardsPerPage.value)
+  );
+});
+function goToNextPage() {
+  if (!isLastPage.value) {
+    currentPage.value++;
+  }
+}
+function goToPreviousPage() {
+  if (currentPage.value > 1) currentPage.value--;
+}
 </script>
