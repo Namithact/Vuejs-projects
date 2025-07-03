@@ -54,13 +54,29 @@
   </div>
 </template>
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 import Flashcard from "@/components/Flashcard.vue";
-import questionaire from "@/data/js-flashcards.json";
+import jsquestionaire from "@/data/js-flashcards.json";
+import htmlquestionaire from "@/data/html-flashcards.json";
+import cssquestionaire from "@/data/css-flashcards.json";
 const selectedLanguage = ref("");
-const questions = ref(questionaire);
+
 const currentPage = ref(1);
 const cardsPerPage = ref(10);
+watch(selectedLanguage, () => {
+  currentPage.value = 1;
+});
+const questions = computed(() => {
+  if (selectedLanguage.value === "html") {
+    return htmlquestionaire;
+  } else if (selectedLanguage.value === "js") {
+    return jsquestionaire;
+  } else if (selectedLanguage.value === "css") {
+    return cssquestionaire;
+  } else {
+    return [];
+  }
+});
 const paginatedQuestions = computed(() => {
   const startIndex = (currentPage.value - 1) * cardsPerPage.value;
   return questions.value.slice(startIndex, startIndex + cardsPerPage.value);

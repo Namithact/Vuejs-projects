@@ -1,0 +1,190 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answer": "HyperText Markup Language."
+  },
+  {
+    "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+    "answer": "It defines the document type and HTML version for the browser."
+  },
+  {
+    "question": "What are semantic HTML elements?",
+    "answer": "Elements that convey meaning about their content, like <header>, <article>, <footer>."
+  },
+  {
+    "question": "What is the difference between block-level and inline elements?",
+    "answer": "Block-level elements start on a new line and take full width; inline elements do not."
+  },
+  {
+    "question": "What is the <head> element used for?",
+    "answer": "To contain meta information, links to stylesheets, scripts, and the document title."
+  },
+  {
+    "question": "What is the purpose of the <meta> tag?",
+    "answer": "It provides metadata such as character encoding, viewport settings, and SEO information."
+  },
+  {
+    "question": "How do you create a hyperlink in HTML?",
+    "answer": "Using the <a> tag with an href attribute."
+  },
+  {
+    "question": "What is the difference between id and class attributes?",
+    "answer": "id is unique per page; class can be shared by multiple elements."
+  },
+  {
+    "question": "What is the use of the alt attribute in <img> tags?",
+    "answer": "To provide alternative text for the image if it cannot be displayed."
+  },
+  {
+    "question": "How do you create an ordered and unordered list?",
+    "answer": "<ol> creates ordered lists; <ul> creates unordered lists."
+  },
+  {
+    "question": "What is the difference between <div> and <span>?",
+    "answer": "<div> is block-level; <span> is inline."
+  },
+  {
+    "question": "What are void elements?",
+    "answer": "Elements that don’t have closing tags, like <br>, <img>, <input>."
+  },
+  {
+    "question": "How can you include CSS in an HTML document?",
+    "answer": "Using inline styles, <style> tag, or external stylesheet linked with <link>."
+  },
+  {
+    "question": "What is the role of the <form> element?",
+    "answer": "To collect user input and submit it to a server."
+  },
+  {
+    "question": "What are data attributes in HTML?",
+    "answer": "Custom attributes that start with data- used to store extra info on elements."
+  },
+  {
+    "question": "What is the difference between <section> and <article>?",
+    "answer": "<section> groups related content; <article> is a self-contained, independent piece of content."
+  },
+  {
+    "question": "What is the purpose of the tabindex attribute?",
+    "answer": "To control the order in which elements receive focus when tabbing."
+  },
+  {
+    "question": "How do you embed a video in HTML?",
+    "answer": "Using the <video> tag."
+  },
+  {
+    "question": "What is the difference between the <script> tag's async and defer attributes?",
+    "answer": "async loads and executes the script asynchronously; defer loads asynchronously but executes after parsing."
+  },
+  {
+    "question": "What is the semantic purpose of the <nav> element?",
+    "answer": "To define a block of navigation links."
+  },
+  {
+    "question": "What are iframes used for?",
+    "answer": "To embed another HTML document within the current one."
+  },
+  {
+    "question": "What is the purpose of the lang attribute in the <html> tag?",
+    "answer": "To declare the language of the document for accessibility and SEO."
+  },
+  {
+    "question": "How do you make a checkbox and radio button in HTML?",
+    "answer": "Using <input type='checkbox'> and <input type='radio'> respectively."
+  },
+  {
+    "question": "What is the difference between the <b> and <strong> tags?",
+    "answer": "<b> is for stylistic bolding; <strong> indicates strong importance."
+  },
+  {
+    "question": "What is the difference between the <i> and <em> tags?",
+    "answer": "<i> is for stylistic italic; <em> indicates emphasis."
+  },
+  {
+    "question": "How do you comment in HTML?",
+    "answer": "Using <!-- Comment --> syntax."
+  },
+  {
+    "question": "What is the use of the <canvas> element?",
+    "answer": "To draw graphics on the fly via scripting (usually JavaScript)."
+  },
+  {
+    "question": "What is the purpose of the role attribute in HTML?",
+    "answer": "To improve accessibility by defining the role of an element."
+  },
+  {
+    "question": "What is the difference between HTML and XHTML?",
+    "answer": "XHTML is a stricter, XML-based version of HTML."
+  },
+  {
+    "question": "What does the <main> element represent?",
+    "answer": "The main content of the <body> unique to the document."
+  },
+  {
+    "question": "How do you create a dropdown list?",
+    "answer": "Using the <select> and <option> elements."
+  },
+  {
+    "question": "What is the difference between GET and POST methods in forms?",
+    "answer": "GET appends data to URL; POST sends data in the request body."
+  },
+  {
+    "question": "What is the purpose of the <label> element?",
+    "answer": "To define labels for <input> elements to improve accessibility."
+  },
+  {
+    "question": "How do you specify character encoding in HTML?",
+    "answer": "Using <meta charset='UTF-8'> inside the <head>."
+  },
+  {
+    "question": "What is the use of the <blockquote> tag?",
+    "answer": "To indicate a section quoted from another source."
+  },
+  {
+    "question": "What is the difference between absolute and relative URLs?",
+    "answer": "Absolute URLs specify full path; relative URLs are relative to the current document."
+  },
+  {
+    "question": "What is the purpose of the <output> element?",
+    "answer": "To represent the result of a calculation or user action."
+  },
+  {
+    "question": "What is the <figure> and <figcaption> used for?",
+    "answer": "<figure> groups media content; <figcaption> provides a caption."
+  },
+  {
+    "question": "How do you specify a favicon for your website?",
+    "answer": "Using <link rel='icon' href='path/to/favicon.ico'> in the <head>."
+  },
+  {
+    "question": "What does the <small> tag represent?",
+    "answer": "Side comments or small print."
+  },
+  {
+    "question": "What is the difference between the <pre> and <code> tags?",
+    "answer": "<pre> preserves whitespace; <code> represents inline code."
+  },
+  {
+    "question": "What is ARIA and how is it used in HTML?",
+    "answer": "Accessible Rich Internet Applications; provides additional accessibility info via attributes."
+  },
+  {
+    "question": "How can you embed a Google Map in HTML?",
+    "answer": "Using an <iframe> with the map’s embed URL."
+  },
+  {
+    "question": "What is the purpose of the <details> and <summary> elements?",
+    "answer": "<details> creates a disclosure widget; <summary> defines the visible summary."
+  },
+  {
+    "question": "What is the difference between <thead>, <tbody>, and <tfoot> in tables?",
+    "answer": "They define table header, body, and footer sections respectively."
+  },
+  {
+    "question": "What is the use of the <time> element?",
+    "answer": "To represent dates and times in a machine-readable format."
+  },
+  {
+    "question": "What is a semantic tag and why is it important?",
+    "answer": "Tags that clearly describe their meaning to both the browser and developers; improves accessibility and SEO."
+  }
+]

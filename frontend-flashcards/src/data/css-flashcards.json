@@ -1,0 +1,190 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "answer": "Cascading Style Sheets."
+  },
+  {
+    "question": "What is the CSS Box Model?",
+    "answer": "It describes the rectangular boxes generated for elements, consisting of margins, borders, padding, and the content area."
+  },
+  {
+    "question": "What is the difference between class selectors and ID selectors?",
+    "answer": "Class selectors target multiple elements; ID selectors target a unique element."
+  },
+  {
+    "question": "What is specificity in CSS?",
+    "answer": "A set of rules the browser uses to determine which CSS rule applies if multiple rules target the same element."
+  },
+  {
+    "question": "What are pseudo-classes in CSS?",
+    "answer": "Keywords added to selectors that specify a special state of the element, e.g., :hover, :focus."
+  },
+  {
+    "question": "What is the difference between relative, absolute, fixed, and sticky positioning?",
+    "answer": "Relative is relative to itself; absolute is relative to nearest positioned ancestor; fixed is relative to viewport; sticky toggles between relative and fixed."
+  },
+  {
+    "question": "What is the difference between em, rem, px, and % units?",
+    "answer": "px is absolute pixels; em is relative to the parent’s font size; rem is relative to root font size; % is relative to parent dimension."
+  },
+  {
+    "question": "What is the difference between the display properties: block, inline, and inline-block?",
+    "answer": "Block elements take full width; inline do not break line; inline-block behave like inline but allow setting width/height."
+  },
+  {
+    "question": "What are media queries in CSS?",
+    "answer": "Rules to apply CSS styles conditionally based on device characteristics like screen width."
+  },
+  {
+    "question": "What is the float property used for?",
+    "answer": "To place elements to the left or right, allowing text or inline elements to wrap around."
+  },
+  {
+    "question": "How does the clearfix hack work?",
+    "answer": "It forces a container to clear its floated children, fixing layout issues."
+  },
+  {
+    "question": "What is the difference between visibility: hidden and display: none?",
+    "answer": "visibility: hidden hides the element but keeps layout space; display: none removes element from layout."
+  },
+  {
+    "question": "What are pseudo-elements in CSS?",
+    "answer": "They style specific parts of elements, like ::before and ::after."
+  },
+  {
+    "question": "What is the z-index property?",
+    "answer": "Controls the stack order of overlapping elements."
+  },
+  {
+    "question": "What is the difference between max-width and min-width?",
+    "answer": "max-width sets the maximum width an element can have; min-width sets the minimum."
+  },
+  {
+    "question": "What is the box-sizing property?",
+    "answer": "Defines how the total width and height of an element are calculated (content-box vs border-box)."
+  },
+  {
+    "question": "What is the difference between absolute and fixed positioning?",
+    "answer": "Absolute is relative to nearest positioned ancestor; fixed is relative to viewport and doesn’t scroll."
+  },
+  {
+    "question": "What are CSS transitions?",
+    "answer": "They allow property changes in CSS values to occur smoothly over a duration."
+  },
+  {
+    "question": "What is Flexbox?",
+    "answer": "A layout model for distributing space along a single row or column."
+  },
+  {
+    "question": "What is the difference between justify-content and align-items in Flexbox?",
+    "answer": "justify-content aligns items horizontally; align-items aligns items vertically."
+  },
+  {
+    "question": "What is the CSS Grid layout?",
+    "answer": "A 2-dimensional grid-based layout system for arranging elements in rows and columns."
+  },
+  {
+    "question": "What is the difference between relative and static positioning?",
+    "answer": "Static is the default; relative moves element relative to its normal position."
+  },
+  {
+    "question": "What does the overflow property do?",
+    "answer": "Controls what happens when content overflows its container (visible, hidden, scroll, auto)."
+  },
+  {
+    "question": "What is specificity hierarchy order in CSS?",
+    "answer": "Inline styles > IDs > Classes/Pseudo-classes/Attributes > Elements/Pseudo-elements."
+  },
+  {
+    "question": "What are vendor prefixes in CSS?",
+    "answer": "Browser-specific prefixes like -webkit-, -moz- used to add support for experimental features."
+  },
+  {
+    "question": "What does the !important declaration do?",
+    "answer": "Overrides all other declarations for a property, increasing its priority."
+  },
+  {
+    "question": "What is the difference between rem and em units?",
+    "answer": "em is relative to the parent element's font size; rem is relative to the root (html) font size."
+  },
+  {
+    "question": "How can you include fonts in CSS?",
+    "answer": "Using @font-face rule or linking to web fonts like Google Fonts."
+  },
+  {
+    "question": "What is the default position value of an element?",
+    "answer": "static."
+  },
+  {
+    "question": "What is the difference between padding and margin?",
+    "answer": "Padding is space inside the border; margin is space outside the border."
+  },
+  {
+    "question": "What is the CSS cascade?",
+    "answer": "The algorithm that determines which CSS rule applies when multiple rules target the same element."
+  },
+  {
+    "question": "What are media features?",
+    "answer": "Properties used inside media queries, like width, height, orientation."
+  },
+  {
+    "question": "What is the default display property of a <div> element?",
+    "answer": "block."
+  },
+  {
+    "question": "How do you center a block element horizontally using CSS?",
+    "answer": "Set a width and use margin: 0 auto."
+  },
+  {
+    "question": "What is the use of the float property?",
+    "answer": "To position elements to the left or right, allowing text to wrap around them."
+  },
+  {
+    "question": "What are pseudo-classes and pseudo-elements?",
+    "answer": "Pseudo-classes define special states (like :hover); pseudo-elements target parts of elements (::before)."
+  },
+  {
+    "question": "What is the difference between an ID selector and a class selector?",
+    "answer": "ID is unique per page and more specific; classes can be used multiple times."
+  },
+  {
+    "question": "How do you make a website responsive?",
+    "answer": "Using flexible grids, flexible images, and media queries."
+  },
+  {
+    "question": "What is the difference between absolute and relative units in CSS?",
+    "answer": "Absolute units (px, cm) are fixed; relative units (em, %, rem) scale based on context."
+  },
+  {
+    "question": "What is the use of the position: sticky property?",
+    "answer": "It toggles between relative and fixed positioning depending on the scroll position."
+  },
+  {
+    "question": "What does the visibility property do?",
+    "answer": "Controls whether an element is visible or hidden, but keeps the layout space."
+  },
+  {
+    "question": "How do z-index values work?",
+    "answer": "Higher z-index values stack on top of lower ones; only works on positioned elements."
+  },
+  {
+    "question": "What is a stacking context?",
+    "answer": "A hierarchical order of elements that determines how elements are stacked on the z-axis."
+  },
+  {
+    "question": "What are CSS variables?",
+    "answer": "Custom properties defined with --name and accessed with var(--name)."
+  },
+  {
+    "question": "What is the difference between inline, block, and inline-block elements?",
+    "answer": "Inline elements don’t start on a new line; block elements do; inline-block elements flow inline but can have width and height."
+  },
+  {
+    "question": "What is the default font size in most browsers?",
+    "answer": "16px."
+  },
+  {
+    "question": "How do you apply styles to elements with JavaScript?",
+    "answer": "By modifying the style property or adding/removing CSS classes."
+  }
+]
