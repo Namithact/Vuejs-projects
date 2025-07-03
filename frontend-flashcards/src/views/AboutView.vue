@@ -52,9 +52,9 @@
         This app was built by Namitha, a frontend developer passionate about
         building tools that support learning and professional growth. You can
         connect with me on 
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-500 underline">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/namitha-ct/" target="_blank" class="text-blue-500 underline">LinkedIn</a>
         or check out my 
-        <a href="https://yourportfolio.com" target="_blank" class="text-blue-500 underline">portfolio</a>.
+        <a href="https://namithact.github.io/developerFolio/" target="_blank" class="text-blue-500 underline">portfolio</a>.
       </p>
     </div>
 
